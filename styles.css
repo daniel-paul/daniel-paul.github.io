@@ -1,0 +1,67 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    padding-top: 60px; /* Adjusted for fixed navbar */
+    background-color: #f8f9fa;
+}
+
+header {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff; /* Light text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header img {
+    width: 200px; /* Adjust the width as needed */
+    border-radius: 50%;
+    margin-right: 100px;
+}
+
+header div {
+    text-align: left;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff; /* Light text color */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffc107; /* Yellow color on hover */
+}
+
+section {
+    padding: 60px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff; /* Light text color */
+}
+
+/* Custom style for the publications page */
+.publication {
+    margin-bottom: 20px;
+    background-color: #ffffff; /* White background color */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    header img {
+        width: 200px; /* Adjusted width for smaller screens */
+        margin-right: 10px;
+    }
+}
