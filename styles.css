@@ -64,4 +64,7 @@ footer {
         width: 200px; /* Adjusted width for smaller screens */
         margin-right: 10px;
     }
+    header p {
+        margin-left: 10px;
+    }
 }
